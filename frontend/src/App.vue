@@ -34,6 +34,8 @@ import TestModule from './testModule.vue';
     <br />
     To anyone new to programming web, use the <b>CLI</b> for commands. Make sure you have <b>TypeScript, Vue, and NodeJS</b> downloaded. You can live view what changes you're making with Vite, or
     some VSC extension similar, and to actually open up a view. run <b>npm run dev</b> to get a localhost.
+    <br />
+    BRANCH TEST
   </p>
 
   <testModule>
