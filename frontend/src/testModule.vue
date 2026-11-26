@@ -4,8 +4,6 @@
             test component goes here
         </p>
     </div>
-
-
 </template>
 
 <style scoped>

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: Liberation Regular;
+    src: url("frontend/public/fonts/liberation_serif/LiberationSerif-Regular.ttf");
+}
+
+/* for all my life this has pissed me off */
