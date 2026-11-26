@@ -1,8 +1,8 @@
-package org.acme.Systems;
+package org.acme.systems;
 
-import org.acme.Parameters.ParameterSet;
+import org.acme.parameters.ParameterSet;
 
-public class HydraulicSystem extends AbstractSystem{
+public class HydraulicSystem extends AbstractSystem {
     @Override
     public ParameterSet step(ParameterSet parameters) {
         // Physics-specific logic

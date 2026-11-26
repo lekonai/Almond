@@ -1,4 +1,4 @@
-package org.acme.Parameters;
+package org.acme.parameters;
 
 import java.util.Map;
 import java.util.Hashtable;
@@ -7,7 +7,7 @@ import java.util.Hashtable;
 public class ParameterSet {
     Map<String, Parameter> parameters = new Hashtable<>();
 
-    public ParameterSet(){
+    public ParameterSet() {
         parameters.put("Topology", new FlatParameter());
         parameters.put("SurfaceWater", new FlatParameter());
         parameters.put("WaterLevel", new GaussianParameter());
@@ -16,16 +16,16 @@ public class ParameterSet {
     }
 
 
-    public Parameter get(String name){
+    public Parameter get(String name) {
         // NOTE CHECK IF THE PARAMETER EXISTS FIRST
         return parameters.get(name);
     }
 
-    public void update(String name, Parameter parameter){
+    public void update(String name, Parameter parameter) {
 
     }
 
-    public void update(ParameterSet parameters){
+    public void update(ParameterSet parameters) {
 
     }
 }

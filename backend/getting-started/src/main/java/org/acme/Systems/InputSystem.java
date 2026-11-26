@@ -1,8 +1,8 @@
-package org.acme.Systems;
+package org.acme.systems;
 
-import org.acme.Parameters.*;
+import org.acme.parameters.*;
 
-public class InputSystem extends AbstractSystem{
+public class InputSystem extends AbstractSystem {
     @Override
     public ParameterSet step(ParameterSet parameters) {
         // Physics-specific logic

@@ -1,5 +1,4 @@
-package org.acme.DataStores;
+package org.acme.datastores;
 
-public class Animal {
-    
+public record Animal(int id, double foodNeeded, double yield, double fecesExcretionRate) {
 }
